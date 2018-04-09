@@ -344,10 +344,12 @@ public class kk extends javax.swing.JFrame {
             
         }
         determineWhoseTurn();
+        jButton1.setEnabled(false);
         determineWin();
+        
         tieGame();
         updateTurn();
-        jButton1.setEnabled(false);
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -361,10 +363,11 @@ public class kk extends javax.swing.JFrame {
             jButton2.setForeground(Color.blue);
         }
         determineWhoseTurn();
+        jButton2.setEnabled(false);
         determineWin();
         tieGame();
         updateTurn();
-        jButton2.setEnabled(false);
+        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -378,10 +381,11 @@ public class kk extends javax.swing.JFrame {
             jButton3.setForeground(Color.blue);
         }
         determineWhoseTurn();
+        jButton3.setEnabled(false);
         determineWin();
         tieGame();
         updateTurn();
-        jButton3.setEnabled(false);
+        
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -395,10 +399,11 @@ public class kk extends javax.swing.JFrame {
             jButton4.setForeground(Color.blue);
         }
         determineWhoseTurn();
+        jButton4.setEnabled(false);
         determineWin();
         tieGame();
         updateTurn();
-        jButton4.setEnabled(false);
+        
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
@@ -412,10 +417,11 @@ public class kk extends javax.swing.JFrame {
             jButton5.setForeground(Color.blue);
         }
         determineWhoseTurn();
+        jButton5.setEnabled(false);
         determineWin();
         tieGame();
         updateTurn();
-        jButton5.setEnabled(false);
+        
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
@@ -429,10 +435,11 @@ public class kk extends javax.swing.JFrame {
             jButton6.setForeground(Color.blue);
         }
         determineWhoseTurn();
+        jButton6.setEnabled(false);
         determineWin();
         tieGame();
         updateTurn();
-        jButton6.setEnabled(false);
+        
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
@@ -446,10 +453,11 @@ public class kk extends javax.swing.JFrame {
             jButton7.setForeground(Color.blue);
         }
         determineWhoseTurn();
+        jButton7.setEnabled(false);
         determineWin();
         tieGame();
         updateTurn();
-        jButton7.setEnabled(false);
+        
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
@@ -463,10 +471,11 @@ public class kk extends javax.swing.JFrame {
             jButton8.setForeground(Color.blue);
         }
         determineWhoseTurn();
+        jButton8.setEnabled(false);
         determineWin();
         tieGame();
         updateTurn();
-        jButton8.setEnabled(false);
+        
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -480,10 +489,11 @@ public class kk extends javax.swing.JFrame {
             jButton9.setForeground(Color.blue);
         }
         determineWhoseTurn();
+        jButton9.setEnabled(false);
         determineWin();
         tieGame();
         updateTurn();
-        jButton9.setEnabled(false);
+        
     }//GEN-LAST:event_jButton9ActionPerformed
 
     /**
