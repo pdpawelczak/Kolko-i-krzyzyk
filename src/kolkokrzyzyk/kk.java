@@ -118,6 +118,16 @@ public class kk extends javax.swing.JFrame {
        jButton8.setText("");
        jButton9.setText("");
        setScore();
+       jButton1.setEnabled(true);
+       jButton2.setEnabled(true);
+       jButton3.setEnabled(true);
+       jButton4.setEnabled(true);
+       jButton5.setEnabled(true);
+       jButton6.setEnabled(true);
+       jButton7.setEnabled(true);
+       jButton8.setEnabled(true);
+       jButton9.setEnabled(true);
+       
     }
     private void getPlayerName(){
         playerOne = JOptionPane.showInputDialog(this, "Player one: ", "Player Name", JOptionPane.INFORMATION_MESSAGE);
@@ -337,6 +347,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton1.setEnabled(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
@@ -353,6 +364,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton2.setEnabled(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -369,6 +381,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton3.setEnabled(false);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -385,6 +398,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton4.setEnabled(false);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
@@ -401,6 +415,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton5.setEnabled(false);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
@@ -417,6 +432,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton6.setEnabled(false);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
@@ -433,6 +449,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton7.setEnabled(false);
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
@@ -449,6 +466,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton8.setEnabled(false);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -465,6 +483,7 @@ public class kk extends javax.swing.JFrame {
         determineWin();
         tieGame();
         updateTurn();
+        jButton9.setEnabled(false);
     }//GEN-LAST:event_jButton9ActionPerformed
 
     /**
